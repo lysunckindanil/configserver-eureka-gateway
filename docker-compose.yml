@@ -1,0 +1,42 @@
+services:
+  config-server:
+    build: ./config-server
+    healthcheck:
+      test: "curl --fail --silent localhost:8888/actuator/health | grep UP || exit 1"
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+
+  eureka-server:
+    build: ./eureka-server
+    healthcheck:
+      test: "curl --fail --silent localhost:8761/actuator/health | grep UP || exit 1"
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+    depends_on:
+      config-server:
+        condition: service_healthy
+
+
+  api-gateway:
+    build: ./api-gateway
+    healthcheck:
+      test: "curl --fail --silent localhost:8000/actuator/health | grep UP || exit 1"
+      interval: 20s
+      timeout: 5s
+      retries: 5
+      start_period: 40s
+    depends_on:
+      eureka-server:
+        condition: service_healthy
+    ports:
+      - 8080:8000
+
+  service:
+    build: ./service
+    depends_on:
+      api-gateway:
+        condition: service_healthy
