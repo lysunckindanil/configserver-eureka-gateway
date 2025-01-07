@@ -1,6 +1,6 @@
 FROM openjdk:21
 
-WORKDIR /service
+WORKDIR /consumer-service
 
 COPY /target .
 

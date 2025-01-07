@@ -18,6 +18,7 @@
         <module>config-server</module>
         <module>api-gateway</module>
         <module>consumer-service</module>
+        <module>producer-service</module>
     </modules>
 
     <packaging>pom</packaging>
