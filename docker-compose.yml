@@ -37,8 +37,8 @@ services:
     ports:
       - 8000:8000
 
-  service:
-    build: ./service
+  consumer-service:
+    build: ./consumer-service
     depends_on:
       api-gateway:
         condition: service_healthy
