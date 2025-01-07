@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 public class ConsumerController {
 
     private final RestTemplate restTemplate;
-    private final String url = "http://producer-server/api";
+    private final String url = "http://producer-service/api";
 
     @GetMapping
     public String consume() {
