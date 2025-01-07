@@ -25,7 +25,7 @@ public class ProducerService {
 
     @FeignClient("producer-service")
     interface ProducerClient {
-        @RequestMapping(method = RequestMethod.GET, value = "/producer-service/api")
+        @RequestMapping(method = RequestMethod.GET, value = "/api")
         String produce();
     }
 }
