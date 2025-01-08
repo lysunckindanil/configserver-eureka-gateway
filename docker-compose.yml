@@ -12,8 +12,6 @@ services:
       timeout: 5s
       retries: 5
       start_period: 20s
-    ports:
-      - 9411:9411
 
   eureka-server:
     build: ./eureka-server
