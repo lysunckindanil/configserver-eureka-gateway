@@ -1,4 +1,9 @@
 services:
+  zipkin-service:
+    image: openzipkin/zipkin
+    ports:
+      - 9411:9411
+
   config-server:
     build: ./config-server
     healthcheck:

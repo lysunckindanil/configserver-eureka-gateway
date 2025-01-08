@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4233f29a-3ca7-4cd7-9477-13911af3b6c4" name="Changes" comment="changing branch for config server" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feign" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2rDqBOzeMCqkbVf1Xv2qHSheF6L" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.api-gateway [install].executor": "Run",
+    "Maven.configserver-eureka-gateway [package].executor": "Run",
+    "Maven.configserver-eureka-gateway [test].executor": "Run",
+    "Maven.eureka-server [clean].executor": "Run",
+    "Maven.eureka-server [install].executor": "Run",
+    "Maven.eureka-server [package].executor": "Run",
+    "Maven.producer-service [package].executor": "Run",
+    "Maven.service [clean].executor": "Run",
+    "Maven.service [install].executor": "Run",
+    "Maven.test-eureka-config [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.ConfigServerApplication.executor": "Run",
+    "Spring Boot.ConsumerServiceApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.ProducerServiceApplication (1).executor": "Run",
+    "Spring Boot.ProducerServiceApplication.executor": "Run",
+    "Spring Boot.ServiceApplication.executor": "Run",
+    "git-widget-placeholder": "sleuth-zipkin",
+    "jdk.selected.JAVA_MODULE": "temurin-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Danila/YandexDisk-stud0000280269@utmn.ru/Projects/JavaProjects/cloud/guess-game-telegram",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "copyright.filetypes.JavaScript",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Danila\YandexDisk-stud0000280269@utmn.ru\Projects\JavaProjects\cloud\configserver-eureka-gateway\producer-service\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Danila\YandexDisk-stud0000280269@utmn.ru\Projects\JavaProjects\cloud\configserver-eureka-gateway\config\producer-service" />
+      <recent name="C:\Users\Danila\YandexDisk-stud0000280269@utmn.ru\Projects\JavaProjects\cloud\configserver-eureka-gateway\config\eureka-server" />
+      <recent name="C:\Users\Danila\YandexDisk-stud0000280269@utmn.ru\Projects\JavaProjects\cloud\configserver-eureka-gateway\config\consumer-sevice" />
+      <recent name="C:\Users\Danila\YandexDisk-stud0000280269@utmn.ru\Projects\JavaProjects\cloud\configserver-eureka-gateway\config\api-gateway" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConsumerServiceApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="consumer-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.service.ConsumerServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProducerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="dev" />
+      <module name="producer-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.producerservice.ProducerServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.producerservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ProducerServiceApplication" />
+      <item itemvalue="Spring Boot.ConsumerServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProducerServiceApplication" />
+        <item itemvalue="Spring Boot.ConsumerServiceApplication" />
+        <item itemvalue="Spring Boot.ConsumerServiceApplication" />
+        <item itemvalue="Spring Boot.ProducerServiceApplication" />
+        <item itemvalue="Spring Boot.ProducerServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4233f29a-3ca7-4cd7-9477-13911af3b6c4" name="Changes" comment="" />
+      <created>1736103860007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736103860007</updated>
+      <workItem from="1736103861064" duration="6566000" />
+      <workItem from="1736110512117" duration="6040000" />
+      <workItem from="1736147594524" duration="2173000" />
+      <workItem from="1736154846094" duration="15063000" />
+      <workItem from="1736216048877" duration="112000" />
+      <workItem from="1736254157702" duration="3620000" />
+      <workItem from="1736257802403" duration="7988000" />
+      <workItem from="1736273573200" duration="4582000" />
+      <workItem from="1736278720454" duration="267000" />
+    </task>
+    <task id="LOCAL-00001" summary="init eureka gateway config">
+      <option name="closed" value="true" />
+      <created>1736104096553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736104096553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init eureka gateway config">
+      <option name="closed" value="true" />
+      <created>1736104390836</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736104390836</updated>
+    </task>
+    <task id="LOCAL-00003" summary="config">
+      <option name="closed" value="true" />
+      <created>1736105259884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736105259884</updated>
+    </task>
+    <task id="LOCAL-00004" summary="config">
+      <option name="closed" value="true" />
+      <created>1736105476765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736105476765</updated>
+    </task>
+    <task id="LOCAL-00005" summary="config">
+      <option name="closed" value="true" />
+      <created>1736106311248</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736106311248</updated>
+    </task>
+    <task id="LOCAL-00006" summary="config">
+      <option name="closed" value="true" />
+      <created>1736107811719</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736107811719</updated>
+    </task>
+    <task id="LOCAL-00007" summary="config">
+      <option name="closed" value="true" />
+      <created>1736109202313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736109202313</updated>
+    </task>
+    <task id="LOCAL-00008" summary="config">
+      <option name="closed" value="true" />
+      <created>1736109560997</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736109560997</updated>
+    </task>
+    <task id="LOCAL-00009" summary="config">
+      <option name="closed" value="true" />
+      <created>1736109946905</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736109946905</updated>
+    </task>
+    <task id="LOCAL-00010" summary="config">
+      <option name="closed" value="true" />
+      <created>1736110275086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736110275086</updated>
+    </task>
+    <task id="LOCAL-00011" summary="config">
+      <option name="closed" value="true" />
+      <created>1736111362100</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1736111362100</updated>
+    </task>
+    <task id="LOCAL-00012" summary="config">
+      <option name="closed" value="true" />
+      <created>1736111967194</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736111967194</updated>
+    </task>
+    <task id="LOCAL-00013" summary="config">
+      <option name="closed" value="true" />
+      <created>1736112491191</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1736112491191</updated>
+    </task>
+    <task id="LOCAL-00014" summary="config">
+      <option name="closed" value="true" />
+      <created>1736113287876</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736113287876</updated>
+    </task>
+    <task id="LOCAL-00015" summary="config">
+      <option name="closed" value="true" />
+      <created>1736113866972</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1736113866972</updated>
+    </task>
+    <task id="LOCAL-00016" summary="config">
+      <option name="closed" value="true" />
+      <created>1736113959629</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1736113959629</updated>
+    </task>
+    <task id="LOCAL-00017" summary="config">
+      <option name="closed" value="true" />
+      <created>1736114666998</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1736114666998</updated>
+    </task>
+    <task id="LOCAL-00018" summary="config">
+      <option name="closed" value="true" />
+      <created>1736114852232</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1736114852232</updated>
+    </task>
+    <task id="LOCAL-00019" summary="config">
+      <option name="closed" value="true" />
+      <created>1736116127056</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1736116127056</updated>
+    </task>
+    <task id="LOCAL-00020" summary="config">
+      <option name="closed" value="true" />
+      <created>1736116453140</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1736116453140</updated>
+    </task>
+    <task id="LOCAL-00021" summary="config">
+      <option name="closed" value="true" />
+      <created>1736116562687</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736116562687</updated>
+    </task>
+    <task id="LOCAL-00022" summary="config">
+      <option name="closed" value="true" />
+      <created>1736146411696</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736146411696</updated>
+    </task>
+    <task id="LOCAL-00023" summary="config">
+      <option name="closed" value="true" />
+      <created>1736146646542</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736146646542</updated>
+    </task>
+    <task id="LOCAL-00024" summary="config">
+      <option name="closed" value="true" />
+      <created>1736148913619</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736148913619</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Dockerfile for each service">
+      <option name="closed" value="true" />
+      <created>1736158181731</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1736158181731</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Dockerfile for each service">
+      <option name="closed" value="true" />
+      <created>1736167830826</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1736167830826</updated>
+    </task>
+    <task id="LOCAL-00027" summary="docker-compose.yml update">
+      <option name="closed" value="true" />
+      <created>1736168407223</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736168407223</updated>
+    </task>
+    <task id="LOCAL-00028" summary="docker-compose.yml update">
+      <option name="closed" value="true" />
+      <created>1736178556592</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1736178556592</updated>
+    </task>
+    <task id="LOCAL-00029" summary="docker-compose.yml update">
+      <option name="closed" value="true" />
+      <created>1736178984720</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1736178984720</updated>
+    </task>
+    <task id="LOCAL-00030" summary="docker-compose.yml update">
+      <option name="closed" value="true" />
+      <created>1736179247304</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1736179247304</updated>
+    </task>
+    <task id="LOCAL-00031" summary="docker-compose.yml update">
+      <option name="closed" value="true" />
+      <created>1736179337475</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1736179337475</updated>
+    </task>
+    <task id="LOCAL-00032" summary="docker-compose.yml update">
+      <option name="closed" value="true" />
+      <created>1736179577901</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1736179577901</updated>
+    </task>
+    <task id="LOCAL-00033" summary="docker-compose.yml update">
+      <option name="closed" value="true" />
+      <created>1736179708463</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1736179708463</updated>
+    </task>
+    <task id="LOCAL-00034" summary="configuring profiles">
+      <option name="closed" value="true" />
+      <created>1736257883660</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1736257883660</updated>
+    </task>
+    <task id="LOCAL-00035" summary="configuring profiles">
+      <option name="closed" value="true" />
+      <created>1736258998406</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1736258998406</updated>
+    </task>
+    <task id="LOCAL-00036" summary="configuring profiles">
+      <option name="closed" value="true" />
+      <created>1736259164717</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1736259164717</updated>
+    </task>
+    <task id="LOCAL-00037" summary="configuring profiles">
+      <option name="closed" value="true" />
+      <created>1736259344597</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1736259344597</updated>
+    </task>
+    <task id="LOCAL-00038" summary="configuring profiles">
+      <option name="closed" value="true" />
+      <created>1736259594785</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1736259594785</updated>
+    </task>
+    <task id="LOCAL-00039" summary="configuring controllers for services">
+      <option name="closed" value="true" />
+      <created>1736259732515</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1736259732515</updated>
+    </task>
+    <task id="LOCAL-00040" summary="configuring controllers for services">
+      <option name="closed" value="true" />
+      <created>1736259956083</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1736259956083</updated>
+    </task>
+    <task id="LOCAL-00041" summary="setting configurations &amp; docker">
+      <option name="closed" value="true" />
+      <created>1736274709525</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1736274709525</updated>
+    </task>
+    <task id="LOCAL-00042" summary="setting feign client for consumer-service">
+      <option name="closed" value="true" />
+      <created>1736276640608</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1736276640608</updated>
+    </task>
+    <task id="LOCAL-00043" summary="setting feign client for consumer-service">
+      <option name="closed" value="true" />
+      <created>1736277020901</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1736277020901</updated>
+    </task>
+    <task id="LOCAL-00044" summary="changing branch for config server">
+      <option name="closed" value="true" />
+      <created>1736277376188</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1736277376188</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init eureka gateway config" />
+    <MESSAGE value="config" />
+    <MESSAGE value="Dockerfile for each service" />
+    <MESSAGE value="docker-compose.yml update" />
+    <MESSAGE value="configuring profiles" />
+    <MESSAGE value="configuring controllers for services" />
+    <MESSAGE value="setting configurations &amp; docker" />
+    <MESSAGE value="setting feign client for consumer-service" />
+    <MESSAGE value="changing branch for config server" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing branch for config server" />
+  </component>
+</project>
