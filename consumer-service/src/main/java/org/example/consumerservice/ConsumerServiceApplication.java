@@ -1,4 +1,4 @@
-package org.example.service;
+package org.example.consumerservice;
 
 import brave.sampler.Sampler;
 import org.springframework.boot.SpringApplication;
