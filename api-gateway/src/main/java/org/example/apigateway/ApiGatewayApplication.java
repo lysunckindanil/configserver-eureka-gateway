@@ -1,6 +1,8 @@
 package org.example.apigateway;
 
-import brave.sampler.Sampler;
+import feign.Capability;
+import feign.micrometer.MicrometerCapability;
+import io.micrometer.core.instrument.MeterRegistry;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -14,4 +16,8 @@ public class ApiGatewayApplication {
         SpringApplication.run(ApiGatewayApplication.class, args);
     }
 
+    @Bean
+    public Capability capability(final MeterRegistry registry) {
+        return new MicrometerCapability(registry);
+    }
 }

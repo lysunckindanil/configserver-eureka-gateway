@@ -1,4 +1,4 @@
-package org.example.consumerservice.service;
+package org.example.consumerservice.services;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
