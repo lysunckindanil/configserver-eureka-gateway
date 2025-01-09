@@ -1,4 +1,4 @@
-package org.example.service.controllers;
+package org.example.consumerservice.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.openfeign.EnableFeignClients;

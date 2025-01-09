@@ -1,5 +1,6 @@
-package org.example.service.controllers;
+package org.example.consumerservice.controllers;
 
+import org.example.consumerservice.service.ProducerService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
